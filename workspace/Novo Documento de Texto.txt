@@ -1,0 +1,12 @@
+Lista 5 - 
+
+Lista 6 - 
+
+Lista 7 - 
+devem ser protegidas quanto à leitura indevida por pessoas
+não autorizadas - mecanismo de autenticação
+
+Trab 1 - 
+Ranking e campo para comentário de produtos.
+Sistema de recomendações de compras/vendas baseadas em
+compras passadas.
