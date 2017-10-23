@@ -1,4 +1,4 @@
 # POO
 Programação Orientada a Objetos
 
-Materias e Exercicios feitos em sala de aula
+Materiais e Exercicios feitos em sala de aula
