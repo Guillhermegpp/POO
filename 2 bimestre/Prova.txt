@@ -1,0 +1,32 @@
+tipos primitivos
+byte
+boolean
+int
+float
+double
+short
+long
+char
+
+
+ArrayList e Array
+Serialização
+Thread
+	sobrescreve metodo run
+
+modificador de acesso
+	private
+	public
+	default
+	protected
+
+FileOutputStream
+
+
+HashSet	- Conjunto de objetos sem ordenação
+TreeSet - Ordenados
+nao permite objetos iguais
+
+HashMap	- Conjuntos de objetos (chave e valor) nao ordenado
+TreeMap - Ordenado pela chave 
+nao permite chaves iguais

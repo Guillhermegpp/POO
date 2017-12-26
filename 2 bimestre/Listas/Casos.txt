@@ -1,0 +1,23 @@
+lista 11 - ex1 - TreeSet ou HashSet?
+	   ex2 - Nao entendi!!! ????
+
+lista 12 - ex1 - Como servidor mandar msg
+
+lista 13 - Avisar quando um evento está próximo de acontecer. Ok
+
+
+
+P1 - 8		2,4
+T1 - 5		2,0
+P2 - 6		1,8
+T2 - 2.5	1
+
+Carol
+
+P1 - 5.5	1,65
+T1 - 2,5	1
+P2 - 8		1,8
+T2 - 6+0,3	0,9
+
+
+

@@ -1,0 +1,60 @@
+Socket - Classe responsável por fazer uma conexão. Existem outros atributos que podem ser passados para o método construtor da classe.
+ServerSocket -  é usada para se iniciar uma conexão do lado do servidor. Por isso, único parâmetro passado é a porta.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Thread
+O uso de thread pode reduzir o tempo total
+de execução de um programa.
+Execução concorrente não significa execução simultânea,
+o que acontece é a distribuição de processos em mais de
+um núcleo do processador, ou entre CPUs.
+	####Descobrir a diferença entre as duas: 
+	Herança da Classe Thread - 
+
+	Implementação da interface Runnable
+
+Prioridade na execução de Thread
+	valor inteiro de 1 a 10 (valor padrao é 5)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+StringBuilder - Sequencia mutavel de caracteres, Trata o problema da String que é imutavel. Não é sincronizada como o StringBuffer, por isso é mais rapida.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Leitura de arquivos:
+	FileWriter - Escrita em arquivo
+	FileReader - Leitura de arquivo
+	BufferedWriter - Escrita em arquivo, porem melhor desempenho no processo
+	BufferedReader
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+GUI's:
+	JPanel - Criação de desenhos, possui metodos especificos para desenhar formas...
+	JFrame - Criação de janelas
+	JButton
+	JComponent
+	JOPtionPane - Fornece caixas de dialogos de entradas e saidas
+	Container
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Collection: API para manipulação de dados
+	É um objeto que agrupa varios outros objetos
+	Quantidade de armazenamento nao é fixa
+	Seu tamanho aumenta automaticamente conforme se adiciona mais elementos.
+	
+List - É uma coleção de elementos arrumados em uma ordem linear.
+	- ArrayList é ideal para acesso randômico, é, portanto, rápido para pesquisa;
+	- Vector – ideal para acesso randômico, porém é sincronizado, logo, é mais lento;	
+	- LinkedList – ideal para acesso sequêncial; É apropriado para inserção de elementos ao seu final, ou seja, ideal para pilhas e filas, mas ruim para o acesso posicional.
+
+Set - Não há noção de “ordem natural da inserção dos elementos”; não aceitam elementos repetidos;
+Caso seja adicionado ao conjunto um elemento repetido, o elemento equivalente dará lugar ao novo elemento adicionado;
+	
+	- HashSet -  os elementos não ficarão ordenados
+	- TreeSet - os elementos ficarão ordenados, independente da ordem que forem adicionados ao TreeSet.
+
+Map - Objetos Map são semelhantes a arrays, mas em vez de índices numéricos, usam objetos como chaves; 
+Cada elemento tem um par (chave, valor);
+As chaves são únicas, porém os valores podem ser duplicados;
+A chave é utilizada para achar um elemento rapidamente .
+	
+	– HashMap: não sincronizado e não ordernado, aceita null como chave; É o mais difundido entre as estruturas Maps.
+	– HashTable: igual ao HashMap, porém sincronizado e não aceita null como chave;
+	– TreeMap: não sincronizado mas é ordenado.

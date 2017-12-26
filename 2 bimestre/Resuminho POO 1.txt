@@ -1,0 +1,79 @@
+Resuminho de POO
+
+A classe é um modelo usado para se criar objetos.
+Objetos são tipos por referencia
+
+Empacotamento(wrapping) é utizado quando se deseja manipular um tipo primitivo como um objeto.
+
+Ordem de precedencia de operadores aritméticos: * / % + -
+
+Operadores de igualdade: == e !=
+Operadores relacionais: >, <, >= e <=
+
+tipos primitivos:
+boolean - 1 bit
+byte	- 8 bits
+short	- 16 bits
+char	- 16 bits
+int	- 32 bits
+float	- 32 bits
+long	- 64 bits
+double	- 64 bits
+
+modificadores de acesso:
+public - disponivel para todos
+default - disponivel para todos dentro do mesmo pacote
+private - pode ser acessado somente pela classe (Metodos e atributos). Classes herdadas tambem nao podem acessar.
+protected - disponivel para todos do mesmo pacote e para classes herdadas.
+
+final: 	
+	Atributo: constante, após ser declarada nao pode ser alterada.
+	Classes: nao permite estender. Castrado, nao pode ter filho! kk
+	Metodos: impede de sobrescrever.
+
+abstract:
+	Classes: Nao pode ser instanciada (Generica), nao pode ser chamada pelos seus contrutores. Uilizada para sobrescrição 
+
+static: 
+	Variaveis de instancia: o mesmo valor é definido em todos objetos
+	Metodos: Independente de outra parte da classe. É chamado direto pelo nome da classe + o nome do metodo.
+	
+Encapsulamento: Ocultação de dados de uma classe (private). Somente a classe pode ver esses dados
+
+SETs e GETs: Metodos para acesso e modificação de atributos encapsulados.
+
+Sobrecarga de metodo: declarar metodos com o mesmo nome, porem com assinaturas(argumentos) diferentes.
+
+Herança: (extends)Um classe que herda atributos e/ou metodos de outra classe.
+
+Polimorfismo: Multiplas formas, o comportamento de um classe foi usado de varias formas
+	
+Interface: (implements) Trato ou especificação. Tudo descrito na interface será implementado na classe que assume o trato. Parecido com classe abstrata. Metodos sem corpo.
+
+Array: lista estatica, nao é possivel aumenta-la. 
+
+Arraylist: lista dimensionada dinamicamente(vai crescendo até encher a memoria).
+
+(Vector: Permite trabalhar com thread)
+
+Serialização: salvar estado atual dos objetos em arquivos binarios.
+(implements Serializable)
+
+Exceções: Tratamento de erros
+(Try Catch)
+
+Escrita em arquivos: Salva o conteudo de cada atributo.
+	File f = new File("./dados.txt");
+	FileWriter fw = new FileWriter(f);
+	fw.write(dato.getDados());
+	...
+	fw.close();
+
+
+Stringbuilder: mais rapido 
+Stringbuffer: Suporta sincronismo, mais lento
+
+comparar um objeto com outro
+variavel.equals(objeto)
+
+

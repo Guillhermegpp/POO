@@ -7,9 +7,12 @@ import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+import javax.swing.JFrame;
+
 public class Servidor {
 
 	public static void main(String[] args) {
+		JFrame janela = new JFrame();
 		// Criando servidor
 		Servidor server = new Servidor();
 		// Aguardar conexao de cliente para transferia
